@@ -56,12 +56,6 @@ function playRound(playerSelection, computerSelection) {
     } 
     } 
 
-
-
-  //const playerSelection = "rock";
-  //const computerSelection = computerPlay();
-  //console.log(playRound(playerSelection, computerSelection))
-
 let pscore = 0;
 let cscore = 0;
 let tie = 0;
@@ -72,4 +66,4 @@ for (let i = 0; i < 5; i++) {
     playRound(playerSelection, computerSelection)
     
 }
-displayResults(pscore, cscore, tie);
+displayResults();
